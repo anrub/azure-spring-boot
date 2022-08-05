@@ -10,7 +10,7 @@ SPRING_CLOUD_AZURE_KEYVAULT_SECRET_PROPERTYSOURCEENABLED=true
 SPRING_CLOUD_AZURE_KEYVAULT_SECRET_PROPERTYSOURCES_0_ENDPOINT=https://my-kv-endpoint
 ````
 
-Throws the following exception in container apps:
+Throws the following exception in container apps, see https://github.com/microsoft/azure-container-apps/issues/341
 
 ````
 8/5/2022, 7:03:26.363 PM,"        at io.opentelemetry.javaagent.shaded.instrumentation.reactor.TracingSubscriber.lambda$onNext$1(TracingSubscriber.java:58)"
