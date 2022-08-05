@@ -1,5 +1,5 @@
 The following Environment Variable have to be set for user assigned identity to access key vault.
-By default the key *testKey* will be loaded from the Key Vault.
+By default the key **testKey** will be loaded from the Key Vault and printed in **/key** endpoint
 
 ````
 APPLICATIONINSIGHTS_CONNECTION_STRING=InstrumentationnKey...
